@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+/*    MAL  */
+.mal-button {
+    padding: 10px 18px;
+    gap: 10px;
+    transform: scale(0.9);
+  }
+  
+  .mal-button .score {
+    font-size: 20px;
+  }
+  
+  .mal-button .out-of,
+  .mal-button .divider {
+    font-size: 9px;
+  }
+  
+  .mal-button .comment {
+    font-size: 12px;
+  }
+  
+
+  /*    IMDb  */
+.imdb-button {
+    padding: 10px 18px;
+    gap: 10px;
+    transform: scale(0.9);
+  }
+  
+  .imdb-button .score {
+    font-size: 20px;
+  }
+  
+  .imdb-button .out-of,
+  .imdb-button .divider {
+    font-size: 10px;
+  }
+  
+  .imdb-button .comment {
+    font-size: 12px;
+  }
+
+  
+
+  /* Steam */
+.button-container {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.golden-button {
+    background-color: #0f0f0f;
+    background-image:
+        radial-gradient(1px 1px at 10% 20%, #ffffff 80%, transparent 100%),
+        radial-gradient(1px 1px at 30% 70%, #ff5a5a 80%, transparent 100%),
+        radial-gradient(1px 1px at 60% 40%, #ffff66 80%, transparent 100%),
+        radial-gradient(1px 1px at 80% 60%, #ffffff 80%, transparent 100%),
+        radial-gradient(1px 1px at 25% 30%, #ff5a5a 80%, transparent 100%),
+        radial-gradient(1px 1px at 70% 90%, #ffffff 80%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0 0 15px rgba(147, 197, 253, 0.2), 0 0 30px rgba(99, 102, 241, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.golden-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(147, 197, 253, 0.4), 0 0 40px rgba(99, 102, 241, 0.2);
+}
+
+
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Rubik', sans-serif;
+}
+
+.rating {
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+    gap: 2px;
+}
+
+.score {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 28px;
+    color: white;
+}
+
+
+.out-of {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 14px;
+    color: #ff5a5a; 
+}
+
+
+.comment {
+    font-style: italic;
+    direction: rtl;
+    color: #fff8e1;
+    font-size: 14px;
+    font-family: 'Rubik', 'Tajawal', 'Cairo', 'Amiri';
+}
+
